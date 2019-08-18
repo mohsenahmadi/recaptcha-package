@@ -1,0 +1,27 @@
+{
+    "name": "dakyaco/recaptcha",
+    "description": "Package to verify recaptcha request",
+    "keywords": ["Laravel", "Recaptcha"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amir Reza Mehrbakhsh",
+            "email": "amirreza@dakyaco.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Dakyaco\\Recaptcha\\": "src"
+        }
+    },
+    "require": {
+        "Illuminate/Support" : "~5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dakyaco\\Recaptcha\\RecaptchaServiceProvider"
+            ]
+        }
+    }
+}
