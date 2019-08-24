@@ -1,6 +1,7 @@
 {
     "name": "dakyaco/recaptcha",
     "description": "Package to verify recaptcha request",
+    "homepage": "https://gitlab.dakyaco.com/dakyaco-public/recaptcha-package",
     "keywords": ["Laravel", "Recaptcha"],
     "license": "MIT",
     "authors": [
