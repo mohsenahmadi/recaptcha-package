@@ -1,5 +1,5 @@
 {
-    "name": "dakyaco-public/recaptcha-package",
+    "name": "dakyaco/recaptcha-package",
     "description": "Package to verify recaptcha request",
     "type": "library",
     "homepage": "https://gitlab.dakyaco.com/dakyaco-public/recaptcha-package",
