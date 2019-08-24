@@ -1,3 +1,3 @@
 # recaptcha-package
 
-the reCaptcha Public Packages repo.
+the Public repo of the reCaptcha project.
