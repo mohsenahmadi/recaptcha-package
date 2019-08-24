@@ -1,5 +1,5 @@
 {
-    "name": "dakyaco/recaptcha",
+    "name": "dakyaco/recaptcha-package",
     "description": "Package to verify recaptcha request",
     "homepage": "https://gitlab.dakyaco.com/dakyaco-public/recaptcha-package",
     "keywords": ["Laravel", "Recaptcha"],
