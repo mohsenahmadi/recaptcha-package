@@ -24,8 +24,7 @@ class Recaptcha {
 				'p-captcha-session' => $session,
 				'sitekey' => $this->secretKey
 			];
-			// TODO: document this:
-			// add keys to config/services.php
+
 			$result = $this->call('POST', $this->url, $data);
 			$result = json_decode($result, true);
 			return $result;
