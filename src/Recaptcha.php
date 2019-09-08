@@ -11,7 +11,7 @@ class Recaptcha {
 
 	public function __construct() {
 		$this->secretKey = config('services.recaptcha.secret');
-		$this->url = config('services.recaptcha.url');
+		$this->url = 'https://captcha.dakyaco.com/api/v1/validate';
 	}
 
 
@@ -24,8 +24,7 @@ class Recaptcha {
 				'p-captcha-session' => $session,
 				'sitekey' => $this->secretKey
 			];
-			// TODO: document this:
-			// add keys to config/services.php
+
 			$result = $this->call('POST', $this->url, $data);
 			$result = json_decode($result, true);
 			return $result;
