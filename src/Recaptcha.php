@@ -11,7 +11,7 @@ class Recaptcha {
 
 	public function __construct() {
 		$this->secretKey = config('services.recaptcha.secret');
-		$this->url = config('services.recaptcha.url');
+		$this->url = 'https://captcha.dakyaco.com/api/v1/validate';
 	}
 
 

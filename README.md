@@ -6,14 +6,13 @@ the Public repo of the reCaptcha project.
 Require the package:
 
 ```sh
-$ composer require dakyaco/ketabuzz
+$ composer require dakyaco/recaptcha-package
 ```
 
 Add these lines to ``config/services.php``
 
 ```sh
 'recaptcha' => [
-    'url' => env('RECAPTCHA_URL'),
     'secret' => env('RECAPTCHA_SECRET'),
 ]
 ```
@@ -21,7 +20,6 @@ Add these lines to ``config/services.php``
 Now go to ``.env`` file and set your credentials
 
 ```sh
-RECAPTCHA_URL=
 RECAPTCHA_SECRET=your-secret-key
 ```
 ## How to use
